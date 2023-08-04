@@ -204,6 +204,7 @@ ul {
     border: none;
     border-radius: 4px;
     margin: 0 480px;
+    padding: 16px 32px;
 }
 
 .filter-button:hover,
