@@ -92,7 +92,14 @@ nav .link-logo {
     line-height: 1.17;
     text-decoration: none;
     margin-right: 76px;
-    padding: 24px 0;
+
+
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+
 }
 
 .logo-text {
@@ -103,7 +110,6 @@ nav .link-logo {
 .list {
     list-style: none;
     display: flex;
-    padding: 24px 0;
 }
 
 .page-header .list {
@@ -141,25 +147,22 @@ ul {
     display: flex;
 }
 
-.link-address {
-    color: var(--list-address);
+.address-list-item,
+.nav-list-item {
+    display: flex;
     padding: 24px 0;
 }
 
-.nav {
-    display: flex;
-    align-items: center;
+.link-address {
+    color: var(--list-address);
 }
+
 
 .page-header .container,
 .page-header .container .list {
     display: inline-flex;
 }
 
-.page-header {
-    padding-top: 24px;
-    padding-bottom: 24px;
-}
 
 
 /* Main */
