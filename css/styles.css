@@ -102,6 +102,7 @@ nav .link-logo {
 .list {
     list-style: none;
     display: flex;
+    padding: 24px 0;
 }
 
 .page-header .list {
@@ -227,10 +228,15 @@ ul {
     padding: 120px 0;
 }
 
-.feature .list {
+.list-feature {
+    display: flex;
     gap: 24px;
+    flex-wrap: wrap;
 }
 
+.list-item-feature {
+    width: calc((100% - 3*24px) / 4);
+}
 
 .list-item-title-feature {
     color: var(--list-item-title-feature);
@@ -238,8 +244,7 @@ ul {
     font-weight: 500;
     line-height: 1.2;
     letter-spacing: 0.02em;
-    width: calc((100% - 3*24px) / 4);
-    margin-bottom: 8px
+    margin-bottom: 8px;
 }
 
 .feature-list-discription {
@@ -251,6 +256,10 @@ ul {
 }
 
 /* Section 3 (Projects) */
+
+.projects {
+    padding-bottom: 120px;
+}
 
 .projects-title {
     color: var(--navyblue, #2E2F42);
@@ -398,6 +407,7 @@ ul {
     display: flex;
     gap: 24px;
     margin-bottom: 72px;
+    justify-content: center;
 }
 
 /* Sectin rows */
