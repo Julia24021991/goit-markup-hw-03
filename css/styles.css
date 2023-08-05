@@ -119,6 +119,10 @@ nav .link-logo {
     align-items: center;
 }
 
+.nav-list-item {
+    padding: 24px 0
+}
+
 .page-header {
     border-bottom: 1px solid #e7e9fc;
 }
@@ -148,6 +152,7 @@ ul {
 
 .address {
     font-style: normal;
+    display: flex;
 }
 
 
