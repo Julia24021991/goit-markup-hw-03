@@ -292,7 +292,7 @@ ul {
 
 .team {
     background: var(--cloud, #F4F4FD);
-    display: flex;
+    padding: 120px 0;
 
 }
 
